@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+
+    .container {
+        background-color: rebeccapurple;
+        color: rgb(201, 37, 146);
+        width: 100%;
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        border: 1px solid rgb(196, 28, 28);
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+    }
+    
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul li a {
+        color: rgb(189, 33, 33);
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+
+    
+    
+    /*ära unusta ka raamjoonesid*/
+    .container {
+        background-color: rgb(30, 143, 67);
+        color: rgb(189, 28, 28);
+    }
+
+    .image-container {
+        background-image: url('../img/profile3.jpg');
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(151, 46, 146);
+    }
+
+    .footer ul li a {
+        color: rgb(40, 34, 114);
+    }
+
+}
+
+
+@media (min-width: 1024px){
+        
+    
+    
+    /*ära unusta ka raamjoonesid*/
+
+    .container {
+        background-color: rgb(23, 174, 219);
+        color: rgb(172, 212, 26);
+    }
+
+    .navigation ul li {
+        border: 1px solid rgb(20, 49, 94);
+    }
+
+    .image-container {
+        background-image: url('../img/profile2.jpg');
+    }
+
+    .footer ul li a {
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+    
+    
+    /*ära unusta ka raamjoonesid*/
+    .container {
+        background-color: rgb(17, 37, 167);
+        color: rgb(42, 148, 42);
+    }
+
+    .image-container {
+        background-image: url('../img/profile4.jpg');
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        border: 1px solid rgb(201, 189, 19);
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid rgb(214, 201, 201);
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+    .footer ul li a {
+        color: rgb(215, 216, 216);
+    }
+
+}
